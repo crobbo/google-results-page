@@ -1,0 +1,9 @@
+#page-container {
+    display:inline grid;
+    
+}
+
+#nav-bar {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
