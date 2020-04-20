@@ -5,5 +5,35 @@
 
 #nav-bar {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 750px 1fr;
+}
+
+#search-input {
+    width: 600px;
+    height:34px;
+    font-size: 16px;
+    border: none;
+    
+    
+}
+#input-container {
+    
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 717px;
+    align-items: center;
+    justify-content: center;
+}
+#input-container:hover {
+    box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+}
+
+#magnify-glass {
+    height: 20px;
 }
