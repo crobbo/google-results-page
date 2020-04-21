@@ -12,7 +12,7 @@
 
 
 #search-input {
-    width: 600px;
+    width: 560px;
     height:34px;
     font-size: 16px;
     border: none;
@@ -38,9 +38,18 @@
     box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
 
 }
+#search-divider {
+    border-left: 1px solid #dfe1e5;
+    height: 65%;
+}
 
+#microphone {
+    height: 22px;
+    padding: 0 0 0 8px;
+}
 #magnify-glass {
-    height: 20px;
+    height: 17px;
+    padding: 0 8px;
 }
 
 #logo-container {
@@ -80,4 +89,58 @@ font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     color: #fff;
     float: right;
 
+}
+
+.lBbtTb {
+    height: 100%;
+    color: #80868b;
+    vertical-align: middle;
+    padding: 0 8px 0 0;
+    
+}
+
+.z1asCe {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.nav-bar {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: inherit;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#nav-section {
+    display: flex;
+    align-items: flex-start;
+    grid-column: 2;
+}
+
+.buttons {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    color: #666;
+    font-size: 13px;
+    padding: 16px 12px 12px 10px;
+    line-height: 16px;
+
+}
+
+.link {
+    color:#5f6368;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
 }
