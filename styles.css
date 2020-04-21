@@ -120,6 +120,8 @@ font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     display: flex;
     align-items: flex-start;
     grid-column: 2;
+    position: relative;
+    left: 25px;
 }
 
 .buttons {
@@ -139,6 +141,32 @@ font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 
 a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.icon {
+    
+    display: inline-block;
+    fill: currentColor;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    left: 80px;
+}
+
+.other { 
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
     display: inline-block;
     text-decoration: none;
     font-size: 13px;
