@@ -250,3 +250,128 @@ a:hover, a:active { text-decoration: none; }
 
 }
 
+.help-feedback {
+    display: block;
+    position: relative;
+    
+}
+
+.small-icon {
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding-right: 8px;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    left: 430px;
+    padding: 3px 8px 0 8px;
+    top: 2px;
+    
+}
+
+.help-text { 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color:  #5f6368;
+    position: relative;
+    left: 430px;
+    padding: -2px 0px 0 8px;;
+}
+
+#info-box-link-below:visited { text-decoration: none; color:#5f6368;}
+#info-box-link-below:hover { text-decoration: none; color:#5f6368;}
+#info-box-link-below:focus { text-decoration: none; color:#5f6368;}
+#info-box-link-below:hover, a:active { text-decoration: none; color:#5f6368;}
+
+.small-icon2 {
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding-right: 8px;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    left: 620px;
+    bottom: 15px;
+    
+}
+
+#feedback-text { 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color:  #5f6368;
+    position: relative;
+    left: 640px;
+    
+}
+
+#feedback-pos { 
+     position: relative;
+     left: 623px;
+     bottom: 18px;
+
+}
+
+
+.video-wrapper {
+    display: inline-block;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #222;
+    font-family: arial,sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+
+#video-head {
+    position: relative;
+    left: 25px;
+}
+
+.videos { 
+    position: relative;
+    left: 25px;
+    display: flex;
+    height: 300px;
+}
+
+.video1, .video2, .video3 { 
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 5px 5px 5px;
+}
+
+.videos img {
+    height: 116px;
+    width: 205px;
+    margin:  0 auto;
+}
+
+.videos a {
+    text-decoration: none;
+    color: #1a0dab;
+    line-height: 1.375;
+    font-size: 16px;
+    margin: auto 10px;
+    width: 180px;
+}
