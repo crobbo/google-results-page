@@ -533,28 +533,66 @@ h3 {
     
 }
 
-.pagenumbers {
-    display: flex;
-    justify-content: center;
+/* sprite */
+.SJajHc {
+    /* background: url(/assets/nav_logo299.webp) no-repeat; */
+    overflow: hidden;
+    /* background-position: 0 0; */
+    height: 40px;
+    display: block;
+}
+.AaVjTc td {
+    padding: 0;
     text-align: center;
-    font-size: 14px;
-    margin: 30px 0;
-
-    .pagenumbers-g {
-        background: url(assets/nav_logo299.webp) no-repeat;
-        background-position: -24px 0;
-        background-size: 167px;
-        width: 28px;
-    }
-
-.pagenumbers-img {
-        overflow: hidden;
-        height: 40px;
-        display: block;
 }
 
-.pagenumbers-o1 {
-    background: url(assets/nav_logo299.webp) no-repeat;
-    background-position: -53px 0;
-    background-size: 167px;
-    width: 20px;
+.footer {
+    position: relative;
+    grid-row: 4;  
+    grid-column: 1/4;  
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    left: 0px;
+    display: block;
+    
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+
+.footer-left {
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.footer li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+}
+
+
+.footer a:visited {
+        text-decoration: none;
+        color: rgba(0,0,0,0.87);
+}
+    
+.footer a:link {
+        text-decoration: none;
+}
+
+.footer a {
+        display: block;
+        padding: 8px;
+        color: rgba(0,0,0,0.87);
+}
+
+
