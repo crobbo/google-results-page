@@ -231,7 +231,7 @@ a:hover, a:active { text-decoration: none; }
     font-family: arial,sans-serif;
     font-weight: normal;
     color: #4d5156;
-    margin: 50px 0 0 20px;
+    margin: 20px 0 0 20px;
     padding: 10px;
 }
 
@@ -374,4 +374,75 @@ h3 {
     font-size: 16px;
     margin: auto 10px;
     width: 180px;
+}
+.video1 p, .video2 p, .video3 p {
+    margin: 0;
+    align-self: flex-start;
+    color: #808080;
+    font-size: 14px;
+    margin: 30px auto 10px 10px;
+    font-family: Arial, sans-serif;
+}
+.youTubecolor {
+    color: #222;
+}
+
+.lower {
+    
+    margin-top: -10px; 
+    
+} 
+
+.single-search {
+    margin-top: 20px;
+}
+
+.related-search {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    align-items: center;
+    padding: 15px; 
+    width: 655px;
+    position: relative;
+    left: 25px; 
+    margin-right: 0;
+    
+}
+
+.related-search p {
+        grid-row: 1;
+        grid-column: 1 / 3;
+        color: #70757A;
+        font-size: 13px;
+        margin: 0 0 0 5px;
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    padding: 0px;
+    margin: 0;
+    
+
+}
+
+.related-search h3 {
+    font-family: arial,sans-serif;
+    color: #222;
+    line-height: 1.3;
+    font-size: 20px;
+    grid-row: 2;
+    grid-column: 1/7;
+    margin: 0;
+    padding: 5px 0 5px 0
+
+}
+
+.related-items {
+    grid-row: 3;
+    text-align: center;
 }
